@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6b21a9;
+}
+
+.conteudo{
+    color: #474747;
+}
+
+.header{
+    background: url(../img/fundoheader.png);
+    min-height: 100vh;
+    background-size: cover !important;   
+}
+
+.texto-header{
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: #2b3690;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px 40px;
+    border-radius: 17px;
+  }
+  
+  .btn-branco:hover {
+    color: #2b3690;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+  
+  .btn-branco:focus, .btn-branco.focus {
+    color: #2b3690;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
+  }
+  
+  .btn-branco.disabled, .btn-branco:disabled {
+    color: #2b3690;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  
+  .btn-branco:not(:disabled):not(.disabled):active, .btn-branco:not(:disabled):not(.disabled).active,
+  .show > .btn-branco.dropdown-toggle {
+    color: #2b3690;
+    background-color: #dae0e5;
+    border-color: #d3d9df;
+  }
+
+.footer{
+    background: url(../img/fundofooter.png);
+    min-height: 100vh;
+    background-size: cover !important;  
+}
+
+.footer-informacoes{
+    position: relative;
+    bottom: 0;
+    width: 100%;       
+    line-height: 50px;
+    color: #ffffff;
+    padding-top: 55em;;
+}
+
+.pb-12{
+    padding-bottom: 12em;
+}
+
+@media (max-width: 768px){
+    
+    body{        
+        font-size: 14px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    .texto-header{        
+        font-size: 30px;    
+    }   
+
+    .header{
+        background: url(../img/fundoheader.png);
+        min-height: 80vh;
+        background-size: cover !important; 
+        
+    }
+
+    .btn-branco {        
+        font-size: 9px;
+        padding: 7px 15px;
+        border-radius: 9px;
+    }
+
+   
+
+}
